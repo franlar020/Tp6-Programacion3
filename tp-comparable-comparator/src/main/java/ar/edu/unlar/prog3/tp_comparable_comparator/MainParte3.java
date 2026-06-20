@@ -47,5 +47,8 @@ public class MainParte3 {
         lista.sort(promedioAscendente);
         System.out.println("\nCriterio Promedio Ascendente (Reversed a partir del natural):");
         lista.forEach(e -> System.out.println(e.getNombre() + " - Promedio: " + e.getPromedio()));
+
+        lista.sort(porEdadLambda);
+        lista.sort(porMateriasModerno);
     }
 }
