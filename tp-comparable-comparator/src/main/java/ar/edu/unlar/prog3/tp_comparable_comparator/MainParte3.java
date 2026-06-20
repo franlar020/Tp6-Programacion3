@@ -49,6 +49,3 @@ public class MainParte3 {
         lista.forEach(e -> System.out.println(e.getNombre() + " - Promedio: " + e.getPromedio()));
     }
 }
-
-message.txt
-3 KB
